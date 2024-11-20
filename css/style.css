@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #270154;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #8456B9;
+    color: #FFFFFF;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav a {
+    margin: 0 10px;
+    color: #FFFFFF;
+}
+
+header .login:hover {
+    color: #270154;
+}
+
+/* Hero Section */
+.secao1 {
+    background-color: #ffffff;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.secao1 h1 {
+    margin-bottom: 10px;
+}
+
+.secao1 p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #8456B9;
+}
+
+.secao1 .btn {
+    background-color: #270154;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+.secao1 .btn:hover {
+    background-color: #8456B9;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+}
+
+.feature-card {
+    background-color: #FFFFFF;
+    border: 1px solid #8456B9;
+    border-radius: 5px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.feature-card h3 {
+color: #6610CE;
+margin-bottom: 10px;
+        }
+
+.feature-card p {
+font-size: 14px;
+}
+
+/* Footer */
+footer {
+background-color: #000000;
+color: #FFFFFF;
+text-align: center;
+padding: 15px 10px;
+ }
+
+footer a {
+color: #FFFFFF;
+margin: 0 5px;
+}
