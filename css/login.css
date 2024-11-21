@@ -1,0 +1,99 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #000000;
+}
+
+h1,
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #270154;
+}
+
+a {
+  text-decoration: none;
+  color: #6610CE;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  background-color: #FFFFFF;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  width: 300px;
+}
+
+.form-section h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-section input {
+  border: 1px solid #8456B9;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-section input:focus {
+  border-color: #6610CE;
+}
+
+.form-section button {
+  background-color: #270154;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background-color: #8456B9;
+}
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #6610CE;
+  background-color: #FFFFFF;
+  color: #6610CE;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.google-button:hover {
+  background-color: #F1F1F1;
+}
+
+.or {
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+}
